@@ -1,11 +1,11 @@
-#Installation
+# Installation
 npm i mochiko666/managers
-#Environments
+# Environments
 node v25.2.0
 npm 11.6.2
 typescript@5.9.3
 just see package.json/tsconfig
-#Example
+# Example
 ```ts
 import path from "path";
 import { RecordFileManager, MapFileManager } from "managers";
