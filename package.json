@@ -11,7 +11,7 @@
     "url": "git+https://github.com/mochiko666/managers.git"
   },
   "publishConfig": {
-    "@mochiko666:registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   },
   "license": "CC0-1.0",
   "author": "",
