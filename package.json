@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/mochiko666/managers.git"
   },
+  "publishConfig": {
+    "@mochiko666:registry": "https://npm.pkg.github.com"
+  },
   "license": "CC0-1.0",
   "author": "",
   "type": "module",
@@ -25,6 +28,7 @@
     "dist"
   ],
   "scripts": {
+    "test": "tsc --noEmit",
     "build": "tsc",
     "prepare": "npm run build"
   },
