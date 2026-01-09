@@ -1,6 +1,6 @@
 import { readFileSync, type PathLike } from "fs";
 import fs from "node:fs/promises";
-import { isFSError } from "../typeguards/typeguards.js";
+import { isFSError } from "../typeguards/fs.js";
 import { PromiseQueue } from "./queue.js";
 
 export abstract class BaseCacheManager<Cache> {
