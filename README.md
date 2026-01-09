@@ -1,5 +1,5 @@
 # Installation
-npm i mochiko666/managers
+npm i @mochiko666/managers
 # Environments
 node v25.2.0
 npm 11.6.2
